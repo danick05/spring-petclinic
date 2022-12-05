@@ -10,6 +10,7 @@ pipeline {
                 }
             }
             steps {
+                sh "ls"
                 sh 'mvn clean install'
             }
         }
